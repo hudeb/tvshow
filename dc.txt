@@ -1,12 +1,16 @@
 { "urls":
     [
-        { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/laji666/tvbox/main/zijian.json", "name": "🌟优先 | 4K精品🌟" },
+        { "url": "https://raw.githubusercontent.com/stanlyshi/tvbox-cfg/master/0821.json", "name": "🌟0821🌟" },
+
+        { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/laji666/tvbox/main/zijian.json", "name": "🌟4K精品🌟" },
             
         { "url": "http://饭太硬.top/tv", "name": "🌟饭太硬🌟" },
         
         { "url": "http://肥猫.live", "name": "🌟肥猫🌟" },
         
-        { "url": "https://raw.liucn.cc/box/m.json", "name": "🌟老刘备🌟" },
+        { "url": "https://raw.liucn.cc/box/m.json", "name": "🌟老刘备🌟" },   
+
+        { "url": "https://agit.ai/leevi/PiG/raw/branch/master/jsm.json", "name": "🌟PG🌟" },
         
         { "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json", "name": "🌟南风🌟" },
         
