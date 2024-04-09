@@ -4,6 +4,10 @@
 {"sourceName":"💚优选仓🍭","sourceUrl":"https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/a.txt?ref=main"},
 {"sourceName":"💛公众仓🍭","sourceUrl":"https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/b.txt?ref=main"},
 {"sourceName":"❤️聚合仓🍭","sourceUrl":"https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/c.txt?ref=main"},
-{"sourceName":"💜预备仓🍭","sourceUrl":"https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/d.txt?ref=main"}
+{"sourceName":"💜预备仓🍭","sourceUrl":"https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/d.txt?ref=main"},
+{"sourceName":"💚日后仓🍭","sourceUrl":"http://rihou.vip:6"},
+{"sourceName":"💛心动仓🍭","sourceUrl":"http://rihou.vip:666"},
+{"sourceName":"💜开心仓🍭","sourceUrl":"http://rihou.vip:55"},
+{"sourceName":"💜云星仓🍭","sourceUrl":"http://itvbox.cc/可视TV/云星日记/仓库/api.json"}
 ]}
 ↑↓
