@@ -37,7 +37,7 @@
         
         { "url": "http://www.liuyunw.com:88/img", "name": "🐹神仙" },
 
-        { "url": "https://gh.api.99988866.xyz/https://raw.githubusercontent.com/hd9211/Tvbox1/main/cr.json", "name": "🐹cr" },
+        { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hd9211/Tvbox1/main/cr.json", "name": "🐹cr" },
         
         { "url": "http://meowtv.cn/tv", "name": "🐹喵影视🐹" }
     ]
