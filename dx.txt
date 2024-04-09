@@ -1,4 +1,4 @@
-//此多仓接口列表为公众号【多多影音】作者大聪明为粉丝提供便利整理而成，如有冒犯各位接口所属大神，请联系删除。
+//如有冒犯各位接口所属大神，请联系删除。
 {
 "storeHouse": [
 {"sourceName":"💚优选仓🍭","sourceUrl":"https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/a.txt?ref=main"},
