@@ -1,9 +1,9 @@
 //如有冒犯各位接口所属大神，请联系删除。
 { "urls":
     [
-        { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/stanlyshi/tvbox-cfg/master/0821.json", "name": "🐹潇洒哥🐹" },
+        { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qist/tvbox/master/0821.json", "name": "🐹0821🐹" },
 
-        { "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox/main/api.json", "name": "🐹0821🐹" },
+        { "url": "http://tvbox.王二小放牛娃.xyz", "name": "🐹放牛娃🐹" },
 
         { "url": "https://juziyou.vip", "name": "🐹柚子🐹" },
 
