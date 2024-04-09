@@ -35,7 +35,7 @@
         
         { "url": "http://rihou.cc:88/荷城茶秀", "name": "🐹荷城茶秀🐹" },
         
-        { "url": "https://100km.top/0", "name": "🐹Ray" },
+        { "url": "http://www.liuyunw.com:88/img", "name": "🐹神仙" },
         
         { "url": "http://meowtv.cn/tv", "name": "🐹喵影视🐹" }
     ]
