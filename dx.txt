@@ -1,6 +1,7 @@
 //如有冒犯各位接口所属大神，请联系删除。
 {
 "storeHouse": [
+{"sourceName":"💚0821🍭","sourceUrl":"https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox/main/api.json"},
 {"sourceName":"💚优选仓🍭","sourceUrl":"https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/a.txt?ref=main"},
 {"sourceName":"💛公众仓🍭","sourceUrl":"https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/b.txt?ref=main"},
 {"sourceName":"❤️聚合仓🍭","sourceUrl":"https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/c.txt?ref=main"},
@@ -10,4 +11,3 @@
 {"sourceName":"💜开心仓🍭","sourceUrl":"http://rihou.vip:55"},
 {"sourceName":"💜云星仓🍭","sourceUrl":"http://itvbox.cc/可视TV/云星日记/仓库/api.json"}
 ]}
-↑↓
