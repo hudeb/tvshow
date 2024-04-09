@@ -41,7 +41,7 @@
 
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/pkpkgtr1/MY_TVbox/main/my.json", "name": "🐹my" },
 
-        { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ZTHA000/tvbox/main/thzx1.json", "name": "18" },
+        { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ZTHA000/tvbox/main/thzx1.json", "name": "🐹陆哥" },
         
         { "url": "http://meowtv.cn/tv", "name": "🐹喵影视🐹" }
     ]
