@@ -14,6 +14,8 @@
         { "url": "http://饭太硬.top/tv", "name": "🐹饭太硬🐹" },
         
         { "url": "http://肥猫.live", "name": "🐹肥猫🐹" },
+
+        { "url": "https://tvbox.中国/", "name": "🐹摸鱼" },
         
         { "url": "https://raw.liucn.cc/box/m.json", "name": "🐹老刘备🐹" },   
 
