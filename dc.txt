@@ -19,6 +19,10 @@
         
         { "url": "https://raw.liucn.cc/box/m.json", "name": "🐹老刘备🐹" },   
 
+        { "url": "
+ https://js.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json
+", "name": "🐹namegen🐹" },   
+
         { "url": "https://agit.ai/leevi/PiG/raw/branch/master/jsm.json", "name": "🐹PG🐹" },
         
         { "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json", "name": "🐹南风🐹" },
