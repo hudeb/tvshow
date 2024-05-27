@@ -61,6 +61,8 @@
 
         { "url": "https://tv.lan2wan.top/candymuj18.json", "name": "🐹CandyMuj" },
 
+        { "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json", "name": "🐹小武哥" },
+
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/nid12345/tvbox/main/tvbox/api.json", "name": "🐹nid" },
         
         { "url": "http://meowtv.cn/tv", "name": "🐹喵影视🐹" }
