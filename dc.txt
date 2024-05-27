@@ -49,6 +49,10 @@
         
         { "url": "http://www.liuyunw.com:88/img", "name": "🐹神仙" },
 
+        { "url": "https://weixine.net/ysc.json", "name": "🐹运输车" },
+
+        { "url": "http://www.wya6.cn/tv/yc.php", "name": "🐹无意" },
+
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/pkpkgtr1/MY_TVbox/main/my.json", "name": "🐹my" },
 
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ZTHA000/tvbox/main/thzx1.json", "name": "🐹陆哥" },
