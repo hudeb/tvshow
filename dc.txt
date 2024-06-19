@@ -33,7 +33,8 @@
         
         { "url": "https://pastebin.com/raw/5NHaxyGR", "name": "🚀道长" },
         
-        { "url": "http://cdn.qiaoji8.com/tvbox.json", "name": "🐹巧技🐹" },
+        { "url": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json", "name": "🐹月光宝盒
+" },
         
         { "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index2&123&b=欧歌", "name": "📢欧歌📢" },
         
