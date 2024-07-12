@@ -13,9 +13,9 @@
 
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/app.json", "name": "🐹其人之道🐹" },
             
-        { "url": "http://www.饭太硬.com/tv/", "name": "🐹饭太硬🐹" },
+        { "url": "http://www.饭太硬.com/tv/", "name": "🍚饭太硬" },
         
-        { "url": "http://like.肥猫.com/你好", "name": "🐹肥猫🐹" },
+        { "url": "http://like.肥猫.com/你好", "name": "🐼肥猫" },
 
         { "url": "http://ok321.top/tv", "name": "🐹OK" },
 
