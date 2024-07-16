@@ -31,7 +31,7 @@
 
         { "url": "http://cdn.qiaoji8.com/tvbox.json", "name": "🐹巧技🐹" },
         
-        { "url": "https://100km.top/0", "name": "🐹纯一骚零🐹" },
+        { "url": "https://xhdwc.tk/0", "name": "🐹骚零🐹" },
         
         { "url": "https://pastebin.com/raw/5NHaxyGR", "name": "🚀道长" },
         
