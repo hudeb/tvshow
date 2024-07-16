@@ -25,9 +25,7 @@
         
         { "url": "https://raw.liucn.cc/box/m.json", "name": "🐹老刘备🐹" },   
 
-        { "url": "
- https://js.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json
-", "name": "🐹namegen🐹" },   
+        { "url": "https://js.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json", "name": "🐹namegen🐹" },   
 
         { "url": "http://cdn.qiaoji8.com/tvbox.json", "name": "🐹巧技🐹" },
         
