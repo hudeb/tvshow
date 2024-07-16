@@ -61,7 +61,7 @@
 
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gaotianliuyun/gao/master/9918.json", "name": "🐹高天流云9918" },
 
-        { "url": "https://tv.lan2wan.top/candymuj18.json", "name": "🐹CandyMuj" },
+        { "url": "https://tv.lan2wan.top/candymuj18.json", "name": "🐹candymuj" },
 
         { "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json", "name": "🐹小武哥" },
 
