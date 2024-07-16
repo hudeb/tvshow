@@ -22,10 +22,12 @@
         { "url": "https://download.kstore.space/download/2883/nzk/nzk0722.json", "name": "🐹D佬" },
 
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xmbjm/svip/main/vip.json", "name": "🐹拾光畅谈" },
+
+        { "url": "https://szyyds.cn/tv/x.json", "name": "🐎小马" },   
         
         { "url": "https://raw.liucn.cc/box/m.json", "name": "🐹老刘备🐹" },   
 
-        { "url": "https://js.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json", "name": "🐹namegen🐹" },   
+        { "url": "https://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json", "name": "🍨小米" },   
 
         { "url": "http://cdn.qiaoji8.com/tvbox.json", "name": "🐹巧技🐹" },
         
@@ -33,7 +35,7 @@
         
         { "url": "https://pastebin.com/raw/5NHaxyGR", "name": "🚀道长" },
         
-        { "url": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json", "name": "🌙月光宝盒" },
+        { "url": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json", "name": "💖月光宝盒" },
         
         { "url": "https://盒子迷.top/禁止贩卖", "name": "🌟盒子迷" },
         
