@@ -11,6 +11,8 @@
 
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/laji666/tvbox/main/zijian.json", "name": "🐹4K精品🐹" },
 
+        { "url": "https://files.catbox.moe/eu3uj5", "name": "🐈夜猫子" },
+
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/app.json", "name": "🐹其人之道🐹" },
             
         { "url": "http://www.饭太硬.com/tv/", "name": "🍚饭太硬" },
