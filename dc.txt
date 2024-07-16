@@ -36,7 +36,7 @@
         { "url": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json", "name": "🐹月光宝盒
 " },
         
-        { "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index2&123&b=欧歌", "name": "📢欧歌📢" },
+        { "url": "https://盒子迷.top/禁止贩卖", "name": "🌟盒子迷" },
         
         { "url": "https://pastebin.com/raw/5NHaxyGR", "name": "💚道长💚" },
         
@@ -60,7 +60,7 @@
 
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gaotianliuyun/gao/master/9918.json", "name": "🐹高天流云9918" },
 
-        { "url": "https://tv.lan2wan.top/candymuj18.json", "name": "🐹CandyMuj" },
+        { "url": "https://tv.lan2wan.top/c和ymuj18.json", "name": "🐹C和yMuj" },
 
         { "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json", "name": "🐹小武哥" },
 
