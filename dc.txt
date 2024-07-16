@@ -63,6 +63,8 @@
 
         { "url": "https://tv.lan2wan.top/candymuj18.json", "name": "🐹candymuj" },
 
+        { "url": "https://cdn.jsdelivr.net/gh/bizhangjie/CatVodSpider/json/18sexN.json", "name": "🐹bizhangjie" },
+
         { "url": "https://ghproxy.com/https://raw.githubusercontent.com/xiaolinshao/linshao/main/18.json", "name": "🐹小武哥" },
 
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/nid12345/tvbox/main/tvbox/api.json", "name": "🐹nid" },
