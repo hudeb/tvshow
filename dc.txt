@@ -48,6 +48,8 @@
         { "url": "http://home.jundie.top:81/top98.json", "name": "🐹俊佬🐹" },
         
         { "url": "http://rihou.cc:88/荷城茶秀", "name": "🐹荷城茶秀🐹" },
+
+        { "url": "https://www.cwss.xyz/刺猬线路禁止贩卖", "name": "🐹刺猬🐹" },
         
         { "url": "http://www.liuyunw.com:88/img", "name": "🐹神仙" },
 
