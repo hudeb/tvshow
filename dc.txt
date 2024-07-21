@@ -61,6 +61,10 @@
 
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ZTHA000/tvbox/main/thzx1.json", "name": "🐹陆哥" },
 
+        { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/wwb521/live/main/video.json", "name": "🐹小武哥" },
+
+        { "url": "https://gitee.com/hsyw/demo1/raw/master/hlgg.txt", "name": "🐹黑料呱哥" },
+
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gaotianliuyun/gao/master/9918.json", "name": "🐹高天流云9918" },
 
         { "url": "https://tv.lan2wan.top/candymuj18.json", "name": "🐹candymuj" },
