@@ -17,7 +17,7 @@
             
         { "url": "http://www.饭太硬.com/tv/", "name": "🍚饭太硬" },
         
-        { "url": "http://like.肥猫.com/你好", "name": "🐼肥猫" },
+        { "url": "http://肥猫.live", "name": "🐼肥猫" },
 
         { "url": "https://download.kstore.space/download/2883/nzk/nzk0722.json", "name": "🐹D佬" },
 
