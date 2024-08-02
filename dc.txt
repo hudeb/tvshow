@@ -19,6 +19,8 @@
         
         { "url": "http://肥猫.live", "name": "🐼肥猫" },
 
+        { "url": "https://hx208.top/h.json", "name": "🐼洪溪" },
+
         { "url": "https://download.kstore.space/download/2883/nzk/nzk0722.json", "name": "🐹D佬" },
 
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xmbjm/svip/main/vip.json", "name": "🐹拾光畅谈" },
