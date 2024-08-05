@@ -1,6 +1,9 @@
 🐼看电视呗,#genre#
-更新2024-08-04,https://gitee.com/tv2785/iptv/raw/master/ad.mp4
-已运行258天,https://gitee.com/tv2785/iptv/raw/master/ad.mp4
+湖北经视,http://113.57.20.158:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北经视,http://58.48.37.158:1111/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北经视,http://59.173.183.242:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北经视,http://59.173.243.210:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北综合,http://59.173.183.242:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 郑铁频道,http://39.162.27.11:8081/newlive/live/hls/1/live.m3u8
 人民铁道,http://39.162.27.11:8081/newlive/live/hls/2/live.m3u8
 🐼奥运体育,#genre#
@@ -3425,6 +3428,13 @@ CHC影迷电影,http://fxgm.fxjf.work:19901/tsfile/live/1016_1.m3u8
 广西影视,http://116.9.204.242:9901/tsfile/live/0124_1.m3u8
 成都影视,http://tvbox6.icu/tv/cditv.php?id=cdyswy
 贵州影视,http://tvbox6.com/tv/dl/dl668/gztv.php?id=gzwy
+🔥获取密码,#genre#
+切勿付费购买,https://gitee.com/tv2785/iptv/raw/master/ad.mp4
+密码获取请进,https://gitee.com/tv2785/iptv/raw/master/ad.mp4
+公众号：,https://gitee.com/tv2785/iptv/raw/master/ad.mp4
+【看电视呗】,https://gitee.com/tv2785/iptv/raw/master/ad.mp4
+首页底部菜单,https://gitee.com/tv2785/iptv/raw/master/ad.mp4
+免费获取密码,https://gitee.com/tv2785/iptv/raw/master/ad.mp4
 💝香港澳门,#genre#
 //01香港卫视集团拥有6个卫星频道和1个网络电视台
 香港卫视精品台也已开播，科教台、文化台正在积极筹备中。
@@ -7131,4 +7141,4 @@ CQTV移动,http://113.205.19.231:8088/udp/225.0.4.68:7980
 新疆石河子影视,http://124.88.144.73:1935/live/jjsh/playlist.m3u8
 新疆石河子教育,http://124.88.144.73:1935/live/jiaoyu/playlist.m3u8
 新疆阿勒泰1,http://tvbox6.icu/tv/quklive.php?id=6
-新疆阿勒泰2,http://tvbox6.icu/tv/quklive.php?id=7
+新疆阿勒泰2,http://tvbox6.icu/tv/quklive.php?id=7↑↓
