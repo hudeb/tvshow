@@ -5,7 +5,7 @@
         {
       "name": "📺好看嘛",
       "type": 0,
-      "url": "https://raw.fgit.cf/2hacc/TVBox/main/live/live.txt",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hudeb/tvshow/main/zb.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
