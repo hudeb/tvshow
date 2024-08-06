@@ -15,7 +15,7 @@
 
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/app.json", "name": "🐹其人之道🐹" },
 
-        { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hudeb/tvshow/main/ok.json", "name": "📺看电视" },
+        { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/loopool/fan/main/a.json", "name": "📺看电视" },
             
         { "url": "http://www.饭太硬.com/tv/", "name": "🍚饭太硬" },
         
