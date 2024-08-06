@@ -1,9 +1,9 @@
 {
-"spider":"./jar/fan.txt;md5;df0ce31ac7dcc52f539815eb83b71b98",
-"wallpaper":"http://home.jundie.top:81/image//w9.png",
-"warningText":"牵手浪漫影院，享受视界盛宴",
+"spider":"./JAR/fan.txt;md5;df0ce31ac7dcc52f539815eb83b71b98",
+"wallpaper":"http://home.jundie.top:81/image//w17.png",
+
 "sites":[
-{"key":"豆豆","name":"全民TV","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
+{"key":"豆豆","name":"非会员阿狸提速","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key":"YGP","name":"🚀叨观荐影┃新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"短剧","name":"🌈上头┃短剧","type":3,"api":"csp_Djtt","searchable":1,"quickSearch":1,"changeable":1},
@@ -58,15 +58,9 @@
 ],
 
 "logo":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
-"lives":[{"name":"TV","type":0,"url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/hudeb/tvshow/main/zb.txt","playerType":1,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-    {
-      "name": "IPV6",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }]
+"lives":[
+{"name":"live","type":0,"url":"https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.txt","playerType":1,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
+{"name":"TV","type":0,"url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u","playerType":1 },
+{"name":"IPV6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1 }]
 
 }
