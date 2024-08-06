@@ -1,7 +1,7 @@
 {
 "spider":"./jar/fan.txt;md5;df0ce31ac7dcc52f539815eb83b71b98",
 "wallpaper":"http://home.jundie.top:81/image//w17.png",
-
+"warningText": "弱水三千，只取一瓢；世人千万，只择一人终老。",
 "sites":[
 {"key":"豆豆","name":"📺看电视吧","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
