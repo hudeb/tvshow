@@ -59,19 +59,28 @@ def get_fan_conf():
         with open("./jar/fan.txt", "wb") as f:
             f.write(response.content)
 
-    # 新增功能：同步 MD5 到 ok.txt 和 ok.json
-    sync_md5_to_files(config)
+        # 新增功能：同步 MD5 到 ok.txt 和 ok.json
+        sync_md5_to_files(config)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        raise
 
 def sync_md5_to_files(config):
     """从config.ini读取MD5并写入ok.txt和ok.json"""
-    ok_txt_md5 = config.get("md5", "conf")
-    ok_json_md5 = config.get("md5", "jar")
+    try:
+        ok_txt_md5 = config.get("md5", "conf")
+        ok_json_md5 = config.get("md5", "jar")
 
-    with open('ok.txt', 'w', newline='', encoding='utf-8') as f:
-        f.write(ok_txt_md5)
-    
-    with open('ok.json', 'w', newline='', encoding='utf-8') as f:
-        f.write(ok_json_md5)
+        with open('ok.txt', 'w', newline='', encoding='utf-8') as f:
+            f.write(ok_txt_md5)
+        
+        with open('ok.json', 'w', newline='', encoding='utf-8') as f:
+            f.write(ok_json_md5)
+        
+        print("MD5 values successfully written to ok.txt and ok.json.")
+    except Exception as e:
+        print(f"An error occurred while syncing MD5 to files: {e}")
+        raise
         
 def diy_conf(content):
     #content = content.replace('https://fanty.run.goorm.site/ext/js/drpy2.min.js', './JS/lib/drpy2.min.js')
