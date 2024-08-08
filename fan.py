@@ -31,14 +31,14 @@ def get_fan_conf():
 
     content = base64.b64decode(result).decode('utf-8')
     url = re.search(r'spider"\:"(.*);md5;', content).group(1)
-    content = content.replace(url, './jar/fan.txt')
+    content = content.replace(url, './JAR/fan.txt')
     content = diy_conf(content)
 
-    with open('go.json', 'w', newline='', encoding='utf-8') as f:
+    with open('go.txt', 'w', newline='', encoding='utf-8') as f:
         f.write(content)
     # 本地包
     local_content = local_conf(content)
-    with open('go.txt', 'w', newline='', encoding='utf-8') as f:
+    with open('go.json', 'w', newline='', encoding='utf-8') as f:
         f.write(local_content)
 
     # Update conf.md5
@@ -56,23 +56,9 @@ def get_fan_conf():
             config.write(f)
 
         response = requests.get(url)
-        with open("./jar/fan.txt", "wb") as f:
+        with open("./JAR/fan.txt", "wb") as f:
             f.write(response.content)
 
-    # 新增功能：同步 MD5 到 ok.txt 和 ok.json
-    sync_md5_to_files(config)
-
-def sync_md5_to_files(config):
-    """从config.ini读取MD5并写入ok.txt和ok.json"""
-    ok_txt_md5 = config.get("md5", "conf")
-    ok_json_md5 = config.get("md5", "jar")
-
-    with open('ok.txt', 'w', newline='', encoding='utf-8') as f:
-        f.write(ok_txt_md5)
-    
-    with open('ok.json', 'w', newline='', encoding='utf-8') as f:
-        f.write(ok_json_md5)
-        
 def diy_conf(content):
     #content = content.replace('https://fanty.run.goorm.site/ext/js/drpy2.min.js', './JS/lib/drpy2.min.js')
     #content = content.replace('公众号【神秘的哥哥们】', '豆瓣')
