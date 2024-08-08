@@ -3,7 +3,6 @@ import base64
 import requests
 import hashlib
 import configparser
-import os
 
 headers = {'User-Agent': 'okhttp/3.15'}
 
@@ -36,12 +35,11 @@ def get_fan_conf():
     content = content.replace(url, './jar/fan.txt')
     content = diy_conf(content)
 
-    with open('go.txt', 'w', newline='', encoding='utf-8') as f:
+    with open('go.json', 'w', newline='', encoding='utf-8') as f:
         f.write(content)
-    
     # 本地包
     local_content = local_conf(content)
-    with open('go.json', 'w', newline='', encoding='utf-8') as f:
+    with open('go.txt', 'w', newline='', encoding='utf-8') as f:
         f.write(local_content)
 
     # Update conf.md5
@@ -62,20 +60,19 @@ def get_fan_conf():
         with open("./jar/fan.txt", "wb") as f:
             f.write(response.content)
     
-    # Update ok.txt and ok.json md5
-    update_file_md5('go.txt', config)
-    update_file_md5('go.json', config)
+    # 读取 config.ini 中的 md5 值并写入 ok.txt 和 ok.json
+    sync_md5_to_files(config)
 
-    with open("config.ini", "w") as f:
-        config.write(f)
+def sync_md5_to_files(config):
+    """从config.ini读取MD5并写入ok.txt和ok.json"""
+    ok_txt_md5 = config.get("md5", "conf")
+    ok_json_md5 = config.get("md5", "jar")
 
-def update_file_md5(file_path, config):
-    if os.path.exists(file_path):
-        m = hashlib.md5()
-        with open(file_path, 'rb') as f:
-            m.update(f.read())
-        file_md5 = m.hexdigest()
-        config.set("md5", file_path, file_md5)
+    with open('ok.txt', 'w', newline='', encoding='utf-8') as f:
+        f.write(ok_txt_md5)
+    
+    with open('ok.json', 'w', newline='', encoding='utf-8') as f:
+        f.write(ok_json_md5)
 
 def diy_conf(content):
     pattern = r'{"key":"Bili"(.)*\n{"key":"Biliych"(.)*\n'
