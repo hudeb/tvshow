@@ -34,11 +34,11 @@ def get_fan_conf():
     content = content.replace(url, './jar/fan.txt')
     content = diy_conf(content)
 
-    with open('xo.json', 'w', newline='', encoding='utf-8') as f:
+    with open('ok.txt', 'w', newline='', encoding='utf-8') as f:
         f.write(content)
     # 本地包
     local_content = local_conf(content)
-    with open('a.json', 'w', newline='', encoding='utf-8') as f:
+    with open('ok.json', 'w', newline='', encoding='utf-8') as f:
         f.write(local_content)
 
     # Update conf.md5
