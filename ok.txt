@@ -1,6 +1,6 @@
 {
   "spider":"./jar/fan.txt;md5;dc0bb7989c050bc9aba22fae0c49348b",
-  "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":2,"ua":"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36","epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
+  "lives":[{"name":"live","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt","playerType":2,"ua":"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36","epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
   "wallpaper":"https://qist.cc/api/api.php",
   "sites":[
     {"key":"黑木耳","name":"👑黑木耳👑","type":3,"api":"csp_XBPQ","playUrl":"https://player.heimuer.tv/index.html?url=","ext":"./json/heimuer.json","jar":"./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
