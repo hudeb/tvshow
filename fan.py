@@ -56,7 +56,7 @@ def get_fan_conf():
             config.write(f)
 
         response = requests.get(url)
-        with open("./JAR/fan.txt", "wb") as f:
+        with open("./jar/fan.txt", "wb") as f:
             f.write(response.content)
 
 def diy_conf(content):
