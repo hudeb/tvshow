@@ -31,7 +31,7 @@ def get_fan_conf():
 
     content = base64.b64decode(result).decode('utf-8')
     url = re.search(r'spider"\:"(.*);md5;', content).group(1)
-    content = content.replace(url, './JAR/fan.txt')
+    content = content.replace(url, './jar/fan.txt')
     content = diy_conf(content)
 
     with open('go.txt', 'w', newline='', encoding='utf-8') as f:
@@ -56,7 +56,7 @@ def get_fan_conf():
             config.write(f)
 
         response = requests.get(url)
-        with open("./JAR/fan.txt", "wb") as f:
+        with open("./jar/fan.txt", "wb") as f:
             f.write(response.content)
 
 def diy_conf(content):
