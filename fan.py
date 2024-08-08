@@ -3,7 +3,6 @@ import base64
 import requests
 import hashlib
 import configparser
-
 headers = {'User-Agent': 'okhttp/3.15'}
 
 def get_fan_conf():
@@ -59,22 +58,10 @@ def get_fan_conf():
         response = requests.get(url)
         with open("./jar/fan.txt", "wb") as f:
             f.write(response.content)
-    
-    # 读取 config.ini 中的 md5 值并写入 ok.txt 和 ok.json
-    sync_md5_to_files(config)
-
-def sync_md5_to_files(config):
-    """从config.ini读取MD5并写入ok.txt和ok.json"""
-    ok_txt_md5 = config.get("md5", "conf")
-    ok_json_md5 = config.get("md5", "jar")
-
-    with open('ok.txt', 'w', newline='', encoding='utf-8') as f:
-        f.write(ok_txt_md5)
-    
-    with open('ok.json', 'w', newline='', encoding='utf-8') as f:
-        f.write(ok_json_md5)
 
 def diy_conf(content):
+    #content = content.replace('https://fanty.run.goorm.site/ext/js/drpy2.min.js', './JS/lib/drpy2.min.js')
+    #content = content.replace('公众号【神秘的哥哥们】', '豆瓣')
     pattern = r'{"key":"Bili"(.)*\n{"key":"Biliych"(.)*\n'
     replacement = ''
     content = re.sub(pattern, replacement, content)
@@ -89,6 +76,19 @@ def local_conf(content):
     replacement = r'{"key":"百度","name":"百度┃采集","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod?ac=list","searchable":1,"filterable":0},\n{"key":"量子","name":"量子┃采集","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1},\n{"key":"非凡","name":"非凡┃采集","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1},\n{"key":"暴風","name":"暴風┃采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1},\n{"key":"索尼","name":"索尼┃采集","type":1,"api":"https://suoniapi.com/api.php/provide/vod","searchable":1,"changeable":1},\n{"key":"快帆","name":"快帆┃采集","type":1,"api":"https://api.kuaifan.tv/api.php/provide/vod","searchable":1,"changeable":1},\n'
     content = re.sub(pattern, replacement, content)
     return content
-
 if __name__ == '__main__':
     get_fan_conf()
+    
+ # 读取 config.ini 中的 md5 值并写入 ok.txt 和 ok.json
+    sync_md5_to_files(config)
+
+def sync_md5_to_files(config):
+    """从config.ini读取MD5并写入ok.txt和ok.json"""
+    ok_txt_md5 = config.get("md5", "conf")
+    ok_json_md5 = config.get("md5", "jar")
+
+    with open('ok.txt', 'w', newline='', encoding='utf-8') as f:
+        f.write(ok_txt_md5)
+    
+    with open('ok.json', 'w', newline='', encoding='utf-8') as f:
+        f.write(ok_json_md5)
