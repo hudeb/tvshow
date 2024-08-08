@@ -24,7 +24,6 @@
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
             "name": "🚀香雅情线路"
         },
-       { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hudeb/tvshow/main/ok.json", "name": "📺看电视" },
         {
             "url": "https://100km.top/0",
             "name": "🚀Ray线路"
@@ -34,7 +33,7 @@
             "name": "🚀小米线路"
         },
         {
-            "url": "http://tvbox.王二小放牛娃.xyz",
+            "url": "http://tvbox.王二小放牛娃.top",
             "name": "🚀王二小线路"
         },
         {
@@ -66,12 +65,12 @@
             "name": "🐹吾爱线路"
         },
         {
-            "url": "https://gitee.com/dongchenys/liu/raw/master/hb.json",
-            "name": "🐹东辰线路"
-        },
-        {
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
             "name": "🐹南风线路"
+        },
+        {
+            "url": "https://fmbox.cc",
+            "name": "🐹星辰线路"
         },
         {
             "url": "http://dp.sxtv.top:88/img",
@@ -94,20 +93,24 @@
             "name": "💎喵影视"
         },
         {
-            "url": "https://www.macms.pro/box/3.json",
-            "name": "💎万达线路"
+            "url": "https://gitee.com/xmbjmjk/omg/raw/master/omg.json",
+            "name": "💎拾光线路"
         },
         {
             "url": "https://gitee.com/tvkj/tw/raw/main/svip.json",
             "name": "💎天微线路"
         },
         {
-            "url": "https://tv.lan2wan.top/candymuj.json",
-            "name": "💎看电影线路"
+            "url": "https://gitee.com/hailin886/fty/raw/master/tvbox/aishang.json",
+            "name": "💎春盈线路"
         },
         {
             "url": "https://yydf.540734621.xyz/QQ/yydf2024.json",
             "name": "🏄️业余线路"
+        },
+        {
+            "url": "http://74.120.175.78/JK/XYQTVBox/dj.json",
+            "name": "🏄️短剧合集"
         },
         {
             "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/config.json?ref=master",
