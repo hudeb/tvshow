@@ -18,6 +18,8 @@
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hudeb/tvshow/main/ok.txt", "name": "📺电视吧" },
 
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hudeb/tvshow/main/ok.json", "name": "📺看电视" },
+
+        { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json", "name": "🏄🏼‍♂️潇洒" },
             
         { "url": "http://www.饭太硬.com/tv/", "name": "🍚饭太硬" },
         
