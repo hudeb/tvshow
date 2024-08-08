@@ -17,7 +17,7 @@
 
         { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hudeb/tvshow/main/ok.txt", "name": "📺电视吧" },
 
-        { "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hudeb/tvshow/main/ok.json", "name": "📺看电视" },
+        { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hudeb/tvshow/main/ok.json", "name": "📺看电视" },
 
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json", "name": "🏄🏼‍♂️潇洒" },
             
