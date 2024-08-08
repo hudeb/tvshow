@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3  # 升级到v3版本
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4  # 升级到v4版本
       with:
         python-version: 3.x
 
@@ -38,7 +38,7 @@ jobs:
 
     - name: Push changes
       if: steps.check.conclusion == 'success'
-      uses:  ad-m/github-push-action@master
+      uses: ad-m/github-push-action@master
       with:
-         # github_token: ${{ secrets.TOKEN }}
-         branch: main
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用GITHUB_TOKEN
+        branch: main
