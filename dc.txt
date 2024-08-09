@@ -20,6 +20,8 @@
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hudeb/tvshow/main/ok.json", "name": "📺看电视" },
 
         { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json", "name": "🏄🏼‍♂️潇洒" },
+
+        { "url": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json", "name": "🍨小米" },  
             
         { "url": "http://www.饭太硬.com/tv/", "name": "🍚饭太硬" },
         
@@ -33,9 +35,7 @@
 
         { "url": "https://szyyds.cn/tv/x.json", "name": "🐎小马" },   
         
-        { "url": "https://raw.liucn.cc/box/m.json", "name": "🐹老刘备🐹" },   
-
-        { "url": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json", "name": "🍨小米" },   
+        { "url": "https://raw.liucn.cc/box/m.json", "name": "🐹老刘备🐹" },    
 
         { "url": "http://cdn.qiaoji8.com/tvbox.json", "name": "🐹巧技🐹" },
         
