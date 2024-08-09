@@ -71,7 +71,7 @@ def get_fan_conf():
 
 def diy_conf(content):
     #content = content.replace('', './JS/lib/drpy2.min.js')
-    #content = content.replace('公众号【神秘的哥哥们】', '豆瓣')
+    content = content.replace('公众号【神秘的哥哥们】', '📺看电视吧')
     pattern = r'{"key":"Bili"(.)*\n{"key":"Biliych"(.)*\n'
     replacement = ''
     content = re.sub(pattern, replacement, content)
@@ -100,11 +100,11 @@ def update_md5_in_files():
         ok_data = json.load(json_file)
 
     # 获取 ok.json 文件中的当前 jar MD5 值
-    current_jar_md5_json = ok_data['spider'].split(';')[2]
+    current_jar_md5_json = re.search(r';md5;(\w+)"', ok_data['spider']).group(1)
 
     if jar_md5 != current_jar_md5_json:
         # 更新 ok.json 文件中的 MD5 值
-        ok_data['spider'] = ok_data['spider'].replace(current_jar_md5_json, jar_md5)
+        ok_data['spider'] = re.sub(r';md5;\w+"', f';md5;{jar_md5}"', ok_data['spider'])
 
         # 将更新后的内容写回 ok.json 文件
         with open(ok_json_file_path, 'w', encoding='utf-8') as json_file:
@@ -118,11 +118,11 @@ def update_md5_in_files():
         ok_txt_content = txt_file.read()
 
     # 获取 ok.txt 文件中的当前 jar MD5 值
-    current_jar_md5_txt = ok_txt_content.split(';')[2]
+    current_jar_md5_txt = re.search(r';md5;(\w+)"', ok_txt_content).group(1)
 
     if jar_md5 != current_jar_md5_txt:
         # 更新 ok.txt 文件中的 MD5 值
-        new_txt_content = ok_txt_content.replace(current_jar_md5_txt, jar_md5)
+        new_txt_content = re.sub(r';md5;\w+"', f';md5;{jar_md5}"', ok_txt_content)
 
         # 将更新后的内容写回 ok.txt 文件
         with open(ok_txt_file_path, 'w', encoding='utf-8') as txt_file:
